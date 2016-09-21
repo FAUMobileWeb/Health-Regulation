@@ -1,0 +1,57 @@
+body {
+    background-color: violet;
+}
+
+h1.Heading  {
+    text-align: center;
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+table.bpm {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aquamarine;
+    color: black;
+    text-align: center;
+    font-size: 1.25em;
+    border-collapse: collapse;
+}
+
+th {
+    border: 2px solid black;
+}
+
+td {
+    border: 2px solid black;
+}
+
+table.pressure {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: palegreen;
+    color: black;
+    text-align: center;
+    font-size: 1.25em;
+    border-collapse: collapse;
+}
+
+ul {
+    font-size: 1.25em;
+}
+
+ol {
+    font-size: 1.25em;
+}
+
+p.app {
+    text-align: center;
+    font-size: .90em;
+}
