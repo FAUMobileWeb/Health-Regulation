@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vytality - Welcome</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/themes/chilltheme.min.css" />
+    <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+    <div data-role="page">
+        <div data-role="header" >
+            <h1>Dashboard</h1>
+            <a href="#menu" class="ui-btn ui-icon-home ui-btn-icon-left">Menu</a>
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="dashboard.html">One</a></li>
+                    <li><a href="two.html" class="ui-btn-active ui-state-persist">Two</a></li>
+                    <li><a href="three.html" >Three</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        
+        <div id="two" class="ui-body-d ui-content">
+            <h1>Second tab contents</h1>
+        </div>
+        
+        
+        <!--Menu-->
+        <div data-role="panel" id="menu" data-display="overlay"> 
+            <ul data-role="listview" class="nav-search">
+                <li><a href="dashboard.html" class="ui-btn">Home</a></li>
+                <li><a href="settings.html" class="ui-btn">Settings</a></li>
+                <li><a href="about.html" class="ui-btn">About</a></li>
+            </ul>
+        </div>
+         <!--Left Panel-->
+        
+        
+    </div>
+</body>
+</html>
