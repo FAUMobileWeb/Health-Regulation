@@ -1,0 +1,523 @@
+		<div data-role="page" class="nd2-no-menu-swipe">
+			<nd2-include data-src="/examples/fragments/panel.left.html"></nd2-include>
+			<div data-role="header" data-position="fixed" class="wow fadeIn">
+				<a href="#leftpanel" class="ui-btn ui-btn-left"><i class="zmdi zmdi-menu"></i></a>
+				<h1 class="wow fadeIn" data-wow-delay='0.4s'>Dashboard</h1>
+
+				<ul data-role="nd2tabs" data-swipe="true">
+					<li data-tab="work" data-tab-active="true">Workouts</li>
+					<li data-tab="holiday">Nutrition Search </li>
+					<li data-tab="colors">BMI Calculator</li>
+				</ul>
+			</div>
+
+			<div role="main" class="ui-content wow fadeIn" data-inset="false" data-wow-delay="0.2s">
+				<div data-role="nd2tab" data-tab="work">
+				    <div data-role="collapsible">
+				        <h1>Arms</h1> 
+							<ul data-role="listview" data-icon="false">
+								<li>
+									<a href="#popupDialog" data-rel="popup" data-position-to="window" data-role="button" data-inline="true" data-transition="pop"><i class='lIcon fa fa-external-link'></i>
+										<img src="/img/Narrow-grip-bench-press.png" class="ui-thumbnail ui-thumbnail-circular" />
+										<h2>Bench Press Narrow Grip</h2>
+										<p>Barbell, Bench</p>
+									</a>
+								</li>
+								<li>
+								<a href="#popupDialog2" data-rel="popup" data-position-to="window" data-role="button" data-inline="true" data-transition="pop"><i class='lIcon fa fa-external-link'></i>
+										<img src="/img/Bicep-curls.png" class="ui-thumbnail ui-thumbnail-circular" />
+										<h2>Bicep Curls</h2>
+										<p>Barbell</p>
+									</a>
+								</li>
+								<li>
+									<a href="#popupDialog3" data-rel="popup" data-position-to="window" data-role="button" data-inline="true" data-transition="pop"><i class='lIcon fa fa-external-link'></i>
+										<img src="/img/Biceps-curl-1.png" class="ui-thumbnail ui-thumbnail-circular" />
+										<h2>Bicep Curls With Dumbbell</h2>
+										<p>Dumbbell</p>
+									</a>
+								</li>
+								<li>
+								    <a href="#popupDialog4" data-rel="popup" data-position-to="window" data-role="button" data-inline="true" data-transition="pop"><i class='lIcon fa fa-external-link'></i>
+										<img src="/img/Tricep-dips.png" class="ui-thumbnail ui-thumbnail-circular" />
+										<h2>Tricep Dips</h2>
+										<p></p>
+									</a>
+								</li>
+								<li>
+									<a href="#popupDialog5" data-rel="popup" data-position-to="window" data-role="button" data-inline="true" data-transition="pop"><i class='lIcon fa fa-external-link'></i>
+										<img src="/img/frenchpress.png" class="ui-thumbnail ui-thumbnail-circular" />
+										<h2>French Press</h2>
+										<p>Bench, SZ-Bar</p>
+									</a>
+								</li>
+								<li>
+									<a href="#popupDialog6" data-rel="popup" data-position-to="window" data-role="button" data-inline="true" data-transition="pop"><i class='lIcon fa fa-external-link'></i>
+										<img src="/img/Push-ups.png" class="ui-thumbnail ui-thumbnail-circular" />
+										<h2>Push Ups</h2>
+										<p>Bodyweight</p>
+									</a>
+								</li>
+							</ul>
+                        </div>
+                        
+                        <div data-role="collapsible">
+				            <h1>Legs</h1>
+							<ul data-role="listview" data-icon="false">
+
+								<li>
+									<a href="#popupDialog7" data-rel="popup" data-position-to="window" data-role="button" data-inline="true" data-transition="pop"><i class='lIcon fa fa-external-link'></i>
+										<img src="/img/Walking-lunges.jpg"/>
+										<h2>Dumbbell Lunges Walking</h2>
+										<p>Dumbbell</p>
+									</a>
+								</li>
+								<li>
+									<a href="#popupDialog8" data-rel="popup" data-position-to="window" data-role="button" data-inline="true" data-transition="pop"><i class='lIcon fa fa-external-link'></i>
+										<img src="/img/Front-squat.png"/>
+										<h2>Front Squats</h2>
+										<p>Barbell</p>
+									</a>
+								</li>
+								<li>
+									<a href="#popupDialog9" data-rel="popup" data-position-to="window" data-role="button" data-inline="true" data-transition="pop"><i class='lIcon fa fa-external-link'></i>
+										<img src="/img/lying-leg-curl.jpg"/>
+										<h2>Leg Curls (laying)</h2>
+										<p>Machine</p>
+									</a>
+								</li>
+								<li>
+									<a href="#popupDialog10" data-rel="popup" data-position-to="window" data-role="button" data-inline="true" data-transition="pop"><i class='lIcon fa fa-external-link'></i>
+										<img src="/img/seated-leg-curl.jpg"/>
+										<h2>Leg Curls (sitting)</h2>
+										<p>Machine</p>
+									</a>
+								</li>
+								<li>
+									<a href="#popupDialog11" data-rel="popup" data-position-to="window" data-role="button" data-inline="true" data-transition="pop"><i class='lIcon fa fa-external-link'></i>
+										<img src="/img/Wide-stance-squat.jpg" />
+										<h2>Squats</h2>
+										<p>Barbell</p>
+									</a>
+								</li>
+							</ul>
+                        </div>
+                        
+                        <div data-role="collapsible">
+				            <h1>Abs</h1>
+							<ul data-role="listview" data-icon="false">
+
+								<li>
+									<a href="#popupDialog12" data-rel="popup" data-position-to="window" data-role="button" data-inline="true" data-transition="pop"><i class='lIcon fa fa-external-link'></i>
+										<img src="/img/Crunches.png"/>
+										<h2>Crunches</h2>
+										<p>Bench, Gym mat</p>
+									</a>
+								</li>
+								<li>
+									<a href="#popupDialog13" data-rel="popup" data-position-to="window" data-role="button" data-inline="true" data-transition="pop"><i class='lIcon fa fa-external-link'></i>
+										<img src="/img/Leg-raises.png"/>
+										<h2>Leg Raises</h2>
+										<p>Gym mat</p>
+									</a>
+								</li>
+								<li>
+									<a href="#popupDialog14" data-rel="popup" data-position-to="window" data-role="button" data-inline="true" data-transition="pop"><i class='lIcon fa fa-external-link'></i>
+										<img src="/img/Cross-body-crunch.png"/>
+										<h2>Side Crunch</h2>
+										<p>Gym mat</p>
+									</a>
+								</li>
+							</ul>
+                        </div>
+                        
+                        <div data-role="collapsible">
+				            <h1>Chest</h1>
+							<ul data-role="listview" data-icon="false">
+
+								<li>
+									<a href="#popupDialog15" data-rel="popup" data-position-to="window" data-role="button" data-inline="true" data-transition="pop"><i class='lIcon fa fa-external-link'></i>
+										<img src="/img/Bench-press-1.png"/>
+										<h2>Bench Press</h2>
+										<p>Barbell, Bench</p>
+									</a>
+								</li>
+								<li>
+									<a href="#popupDialog16" data-rel="popup" data-position-to="window" data-role="button" data-inline="true" data-transition="pop"><i class='lIcon fa fa-external-link'></i>
+										<img src="/img/Decline-bench-press-1.jpg"/>
+										<h2>Decline Bench Press</h2>
+										<p>Barbell, Bench</p>
+									</a>
+								</li>
+								<li>
+									<a href="#popupDialog17" data-rel="popup" data-position-to="window" data-role="button" data-inline="true" data-transition="pop"><i class='lIcon fa fa-external-link'></i>
+										<img src="/img/Incline-cable-flyes.jpg"/>
+										<h2>Fly With Cable</h2>
+										<p>Machine</p>
+									</a>
+								</li>
+								<li>
+									<a href="#popupDialog18" data-rel="popup" data-position-to="window" data-role="button" data-inline="true" data-transition="pop"><i class='lIcon fa fa-external-link'></i>
+										<img src="/img/Incline-bench-press-1.jpg"/>
+										<h2>Incline Bench Press</h2>
+										<p>Barbell, Bench</p>
+									</a>
+								</li>
+							</ul>
+                        </div>
+                        
+                        <div data-role="collapsible">
+				            <h1>Back</h1>
+							<ul data-role="listview" data-icon="false">
+
+								<li>
+									<a href="#popupDialog19" data-rel="popup" data-position-to="window" data-role="button" data-inline="true" data-transition="pop"><i class='lIcon fa fa-external-link'></i>
+										<img src="/img/Barbell-rear-delt-row.jpg"/>
+										<h2>Bent Over Rowing</h2>
+										<p>Barbell</p>
+									</a>
+								</li>
+								<li>
+									<a href="#popupDialog20" data-rel="popup" data-position-to="window" data-role="button" data-inline="true" data-transition="pop"><i class='lIcon fa fa-external-link'></i>
+										<img src="/img/Hyperextensions.png"/>
+										<h2>Hyperextensions</h2>
+										
+									</a>
+								</li>
+								<li>
+									<a href="#popupDialog21" data-rel="popup" data-position-to="window" data-role="button" data-inline="true" data-transition="pop"><i class='lIcon fa fa-external-link'></i>
+										<img src="/img/Dead-lifts.jpg"/>
+										<h2>Rack Deadlift</h2>
+										<p>Machine</p>
+									</a>
+								</li>
+							</ul>
+                        </div>
+                        
+					</div>
+                
+                    <div data-role="popup" id="popupDialog">
+                        <div data-role="header">
+                            <h1 class='nd-title'>Bench Press Narrow Grip</h1>
+                        </div>
+
+                        <div data-role="content">
+                            <p>Lay down on a bench, the bar is directly over your eyes, the knees form a slight angle and the feet are firmly on the ground. Hold the bar with a narrow grip (around 20cm.). Lead the weight slowly down till the arms are parallel to the floor (elbow: right angle), press then the bar up. When bringing the bar down, don't let it down on your nipples as with the regular bench pressing, but somewhat lower.
+                            </p>
+                            <a href="dialog/index.html" data-rel="back" data-role="button" data-inline="true" class="ui-btn ui-btn-primary">OK</a>
+                        </div>
+                    </div>                    
+                
+                    <div data-role="popup" id="popupDialog2">
+                        <div data-role="header">
+                            <h1 class='nd-title'>Bicep Curls</h1>
+                        </div>
+
+                        <div data-role="content">
+                            <p>Hold the Barbell shoulder-wide, the back is straight, the shoulders slightly back, the arms are streched. Bend the arms, bringing the weight up, with a fast movement. Without pausing, let down the bar with a slow and controlled movement. Don't allow your body to swing during the exercise, all work is done by the biceps, which are the only mucles that should move (pay attention to the elbows).
+                            </p>
+                            <a href="dialog/index.html" data-rel="back" data-role="button" data-inline="true" class="ui-btn ui-btn-primary">OK</a>
+                        </div>
+                    </div>                    
+                
+                    <div data-role="popup" id="popupDialog3">
+                        <div data-role="header">
+                            <h1 class='nd-title'>Bicep Curls With Dumbbell</h1>
+                        </div>
+
+                        <div data-role="content">
+                            <p>
+                                Hold two barbells, the arms are streched, the hands are on your side, the palms face inwards. Bend the arms and bring the weight with a fast movement up. At the same time, rotate your arms by 90 degrees at the very beginning of the movement. At the highest point, rotate a little the weights further outwards. Without a pause, bring them down, slowly.Don't allow your body to swing during the exercise, all work is done by the biceps, which are the only mucles that should move (pay attention to the elbows).
+                            </p>
+                            <a href="dialog/index.html" data-rel="back" data-role="button" data-inline="true" class="ui-btn ui-btn-primary">OK</a>
+                        </div>
+                    </div>                    
+                
+                    <div data-role="popup" id="popupDialog4">
+                        <div data-role="header">
+                            <h1 class='nd-title'>Tricep Dips</h1>
+                        </div>
+
+                        <div data-role="content">
+                            <p>
+                                Hold onto the bars at a narrow place (if they are not parallel) and press yourself up, but don't stretch the arms completely, so the muscles stay during the whole exercise under tension. Now bend the arms and go down as much as you can, keeping the elbows always pointing back, At this point, you can make a short pause before repeating the movement
+                            </p>
+                            <a href="dialog/index.html" data-rel="back" data-role="button" data-inline="true" class="ui-btn ui-btn-primary">OK</a>
+                        </div>
+                    </div>
+                
+                    <div data-role="popup" id="popupDialog5">
+                        <div data-role="header">
+                            <h1 class='nd-title'>French Press</h1>
+                        </div>
+
+                        <div data-role="content">
+                            <p>
+                                Hold the SZ-bar and lay down on a flat bench in such a way that around 1/4 of your head is over the edge. Stretch your arms with the bar and bend them so that the bar is lowered. Just before it touches your forehead, push it up.
+
+                                Pay attention to your elbows and arms: only the triceps are doing the work, the rest of the arms should not move.
+                            </p>
+                            <a href="dialog/index.html" data-rel="back" data-role="button" data-inline="true" class="ui-btn ui-btn-primary">OK</a>
+                        </div>
+                    </div>
+                
+                    <div data-role="popup" id="popupDialog6">
+                        <div data-role="header">
+                            <h1 class='nd-title'>Push Ups</h1>
+                        </div>
+
+                        <div data-role="content">
+                            <p>
+                                Start with your body streched, your hands are shoulder-wide appart on the ground. Push yourself off the ground till you strech your arms. The back is always straight and as well as the neck (always look to the ground). Lower yourself to the initial position and repeat.
+                            </p>
+                            <a href="dialog/index.html" data-rel="back" data-role="button" data-inline="true" class="ui-btn ui-btn-primary">OK</a>
+                        </div>
+                    </div>
+                
+                    <div data-role="popup" id="popupDialog7">
+                        <div data-role="header">
+                            <h1 class='nd-title'>Dubbell Lunges Walking</h1>
+                        </div>
+
+                        <div data-role="content">
+                            <p>
+                                Take two dumbbells in your hands, stand straight, feet about shoulder wide. Take one long step so that the front knee is approximately forming a right angle. The back leg is streched, the knee is low but doesn't touch the ground. "Complete" the step by standing up and repeat the movement with the other leg.
+                            </p>
+                            <a href="dialog/index.html" data-rel="back" data-role="button" data-inline="true" class="ui-btn ui-btn-primary">OK</a>
+                        </div>
+                    </div>
+                
+                    <div data-role="popup" id="popupDialog8">
+                        <div data-role="header">
+                            <h1 class='nd-title'>Front Squats</h1>
+                        </div>
+
+                        <div data-role="content">
+                            <p>
+                                From rack with barbell upper chest height, position bar in front of shoulders. Cross arms and place hands on top of barbell with upper arms parallel to floor. Dismount bar from rack. Squat down by bending hips back while allowing knees to bend forward, keeping back straight and knees pointed same direction as feet.
+                            </p>
+                            <a href="dialog/index.html" data-rel="back" data-role="button" data-inline="true" class="ui-btn ui-btn-primary">OK</a>
+                        </div>
+                    </div>
+                
+                    <div data-role="popup" id="popupDialog9">
+                        <div data-role="header">
+                            <h1 class='nd-title'>Leg Curls (laying)</h1>
+                        </div>
+
+                        <div data-role="content">
+                            <p>
+                                Lay on a bench and put your calves behind the leg holder (better if they are hold on around the lower calves). Hold a grip on the bars to make sure the body is firmly in place. Bend your legs bringing the weight up, go slowly back. During the exercise the body should not move, all work is done by the legs.
+                            </p>
+                            <a href="dialog/index.html" data-rel="back" data-role="button" data-inline="true" class="ui-btn ui-btn-primary">OK</a>
+                        </div>
+                    </div>
+                
+                    <div data-role="popup" id="popupDialog10">
+                        <div data-role="header">
+                            <h1 class='nd-title'>Leg Curls (sitting)</h1>
+                        </div>
+
+                        <div data-role="content">
+                            <p>
+                                Adjust the machine lever to fit your height and sit on the machine with your back against the back support pad.
+                                Place the back of lower leg on top of padded lever (just a few inches under the calves) and secure the lap pad against your thighs, just above the knees. Then grasp the side handles on the machine as you point your toes straight (or you can also use any of the other two stances) and ensure that the legs are fully straight right in front of you. This will be your starting position.
+                                As you exhale, pull the machine lever as far as possible to the back of your thighs by flexing at the knees. Keep your torso stationary at all times. Hold the contracted position for a second.
+                                Slowly return to the starting position as you breathe in.
+                                Repeat for the recommended amount of repetitions.
+                            </p>
+                            <a href="dialog/index.html" data-rel="back" data-role="button" data-inline="true" class="ui-btn ui-btn-primary">OK</a>
+                        </div>
+                    </div>
+                
+                    <div data-role="popup" id="popupDialog11">
+                        <div data-role="header">
+                            <h1 class='nd-title'>Squats</h1>
+                        </div>
+
+                        <div data-role="content">
+                            <p>
+                                Start by standing up tall, with shoulders back, feet about shoulder width apart, and toes pointed forward. With all your weight on your heels, inhale as you squat back by bending at the knee and sticking your butt back as you lower. Keep your head and chest up, and your eyes looking forward.
+                            </p>
+                            <a href="dialog/index.html" data-rel="back" data-role="button" data-inline="true" class="ui-btn ui-btn-primary">OK</a>
+                        </div>
+                    </div>
+                
+                    <div data-role="popup" id="popupDialog12">
+                        <div data-role="header">
+                            <h1 class='nd-title'>Crunches</h1>
+                        </div>
+
+                        <div data-role="content">
+                            <p>
+                                Lay down on your back a soft surface, the feet are on the floor. Ask a partner or use some other help (barbell, etc.) to keep them fixed, your hands are behind your head. From this position move your upper body up till your head or elbows touch your knees. Do this movement by rolling up your back.
+                            </p>
+                            <a href="dialog/index.html" data-rel="back" data-role="button" data-inline="true" class="ui-btn ui-btn-primary">OK</a>
+                        </div>
+                    </div>
+                
+                    <div data-role="popup" id="popupDialog13">
+                        <div data-role="header">
+                            <h1 class='nd-title'>Leg Raises</h1>
+                        </div>
+
+                        <div data-role="content">
+                            <p>
+                                Lay down on a bench and hold onto the recliner with your hands to keep you stable. Hold your legs straight and lift them till they make an angle of about 45°. Make a short pause of 1 sec. and go slowly down to the initial position. To increase the intensity you can make a longer pause of 7 sec. every 5th time.
+                            </p>
+                            <a href="dialog/index.html" data-rel="back" data-role="button" data-inline="true" class="ui-btn ui-btn-primary">OK</a>
+                        </div>
+                    </div>
+                
+                    <div data-role="popup" id="popupDialog14">
+                        <div data-role="header">
+                            <h1 class='nd-title'>Side Crunch</h1>
+                        </div>
+
+                        <div data-role="content">
+                            <p>
+                                Hold weight in one hand. Bend side ways to the knee. Pull upo to upright position using your obliquus.
+                            </p>
+                            <a href="dialog/index.html" data-rel="back" data-role="button" data-inline="true" class="ui-btn ui-btn-primary">OK</a>
+                        </div>
+                    </div>
+                
+                    <div data-role="popup" id="popupDialog15">
+                        <div data-role="header">
+                            <h1 class='nd-title'>Bench Press</h1>
+                        </div>
+
+                        <div data-role="content">
+                            <p>
+                                Lay down on a bench, the bar should be directly above your eyes, the knees are somewhat angled and the feet are firmly on the floor. Concentrate, breath deeply and grab the bar more than shoulder wide. Bring it slowly down till it briefly touches your chest at the height of your nipples. Push the bar up
+                            </p>
+                            <a href="dialog/index.html" data-rel="back" data-role="button" data-inline="true" class="ui-btn ui-btn-primary">OK</a>
+                        </div>
+                    </div>
+                
+                    <div data-role="popup" id="popupDialog16">
+                        <div data-role="header">
+                            <h1 class='nd-title'>Decline Bench Press</h1>
+                        </div>
+
+                        <div data-role="content">
+                            <p>
+                                Lay down on a decline bench, the bar should be directly above your eyes, the knees are somewhat angled and the feet are firmly on the floor. Concentrate, breath deeply and grab the bar more than shoulder wide. Bring it slowly down till it briefly touches your chest at the height of your nipples. Push the bar up
+                            </p>
+                            <a href="dialog/index.html" data-rel="back" data-role="button" data-inline="true" class="ui-btn ui-btn-primary">OK</a>
+                        </div>
+                    </div>
+                
+                    <div data-role="popup" id="popupDialog17">
+                        <div data-role="header">
+                            <h1 class='nd-title'>Fly With Cable</h1>
+                        </div>
+
+                        <div data-role="content">
+                            <p>
+                                To get yourself into the starting position, place the pulleys on a high position (above your head), select the resistance to be used and hold the pulleys in each hand.
+                                Step forward in front of an imaginary straight line between both pulleys while pulling your arms together in front of you. Your torso should have a small forward bend from the waist. This will be your starting position.
+                                With a slight bend on your elbows in order to prevent stress at the biceps tendon, extend your arms to the side (straight out at both sides) in a wide arc until you feel a stretch on your chest. Breathe in as you perform this portion of the movement. Tip: Keep in mind that throughout the movement, the arms and torso should remain stationary; the movement should only occur at the shoulder joint.
+                                Return your arms back to the starting position as you breathe out. Make sure to use the same arc of motion used to lower the weights.
+                                Hold for a second at the starting position and repeat the movement for the prescribed amount of repetitions.
+                            </p>
+                            <a href="dialog/index.html" data-rel="back" data-role="button" data-inline="true" class="ui-btn ui-btn-primary">OK</a>
+                        </div>
+                    </div>
+                
+                    <div data-role="popup" id="popupDialog18">
+                        <div data-role="header">
+                            <h1 class='nd-title'>Incline Bench Press</h1>
+                        </div>
+
+                        <div data-role="content">
+                            <p>
+                                Load the bar to an appropriate weight for your training.
+                                Lay on the bench with your feet flat on the ground, driving through to your hips. Your back should be arched, and your shoulder blades retracted.
+                                Take a medium, pronated grip covering the rings on the bar. Remove the bar from the rack, holding the weight above your chest with your arms extended. This will be your starting position.
+                                Lower the bar to the sternum by flexing the elbows. Maintain control and do not bounce the bar off of your chest. Your lats should stay tight and elbows slightly drawn in.
+                                After touching your torso with the bar, extend the elbows to return the bar to the starting position.
+                            </p>
+                            <a href="dialog/index.html" data-rel="back" data-role="button" data-inline="true" class="ui-btn ui-btn-primary">OK</a>
+                        </div>
+                    </div>
+                
+                    <div data-role="popup" id="popupDialog19">
+                        <div data-role="header">
+                            <h1 class='nd-title'>Bent Over Rowing</h1>
+                        </div>
+
+                        <div data-role="content">
+                            <p>
+                                Grab the barbell with a wide grip (slightly more than shoulder wide) and lean forward. Your upper body is not quite parallel to the floor, but forms a slight angle. The chest's out during the whole exercise.
+
+                                Pull now the barbell with a fast movement towards your belly button, not further up. Go slowly down to the initial position. Don't swing with your body and keep your arms next to your body.
+                            </p>
+                            <a href="dialog/index.html" data-rel="back" data-role="button" data-inline="true" class="ui-btn ui-btn-primary">OK</a>
+                        </div>
+                    </div>
+                
+                    <div data-role="popup" id="popupDialog20">
+                        <div data-role="header">
+                            <h1 class='nd-title'>Hyperextensions</h1>
+                        </div>
+
+                        <div data-role="content">
+                            <p>
+                                Lay on the hyperextension pad with the belly button just at the leading edge, the upper body can hang freely. Tense your whole back's muscles and bring your upper body up till it is horizontal, but not more. Go slowly down and don't relax your muscles.
+                            </p>
+                            <a href="dialog/index.html" data-rel="back" data-role="button" data-inline="true" class="ui-btn ui-btn-primary">OK</a>
+                        </div>
+                    </div>
+                
+                    <div data-role="popup" id="popupDialog21">
+                        <div data-role="header">
+                            <h1 class='nd-title'>Rack Deadlift</h1>
+                        </div>
+
+                        <div data-role="content">
+                            <p>
+                                Deadlift to be done using a Smith machine or a free rack. Bar or barbell hould be just right under the knee cap level. Lift using the glutes and through the heels, then come back to starting postion with a control movement of 2 seconds.
+
+                                This exercise targets mainly the lower back and glutes.
+                            </p>
+                            <a href="dialog/index.html" data-rel="back" data-role="button" data-inline="true" class="ui-btn ui-btn-primary">OK</a>
+                        </div>
+                    </div>
+                
+                    <div data-role="popup" id="popupDialog22">
+                        <div data-role="header">
+                            <h1 class='nd-title'>About</h1>
+                        </div>
+                        <h2>Vytality Fitness</h2>
+                        <div data-role="content">
+                            <p>
+                                A simple fitness app.
+
+                            </p>
+                            <a href="dialog/index.html" data-rel="back" data-role="button" data-inline="true" class="ui-btn ui-btn-primary">OK</a>
+                        </div>
+                    </div>
+
+					<div data-role="nd2tab" data-tab="holiday">
+                        <div role="main" class="ui-content">
+                            <form class="pure-form" id="searchForm">
+                                <input type="text" class="pure-input-rounded" id="searchBar">
+                                <button type="submit" class="pure-button" onclick='searchValue()'>Search</button>
+                            </form>
+                        </div>
+                        <div class="resultContainer" id="yo"></div>
+					</div>
+
+					<div data-role="nd2tab" data-tab="colors">
+                        <form name="bmiForm">
+                            Height (cm): <input type="text" name="height" size="10"><br />
+                            Weight (kg): <input type="text" name="weight" size="10"><br />
+                            <input type="button" value="Calculate BMI" onClick="calculateBmi()"><br />
+                            Your BMI: <input type="text" name="bmi" size="10"><br />
+                            Status: <input type="text" name="meaning" size="25"><br />
+                            <input type="reset" value="Reset" />
+                        </form>
+				    </div>
+			</div>
+		</div>

@@ -1,0 +1,25 @@
+		<div data-role="page" class="nd2-no-menu-swipe">
+			<nd2-include data-src="/examples/fragments/panel.left.html"></nd2-include>
+			<div data-role="header" data-position="fixed" class="wow fadeIn">
+				
+				<h1 class="wow fadeIn" data-wow-delay='0.4s'>Sign In</h1>
+			</div>
+            
+
+            
+        <div role="main" class="ui-content">
+            <form method="post" action="/users/login">
+            
+            <label for="txt-email">Username</label>
+            <input type="text" class="form-control" name="username" placeholder="Username">
+            <label for="txt-password">Password</label>
+            <input type="password" class="form-control" name="password" placeholder="Password">
+            <fieldset data-role="controlgroup">
+                Don't have an account?
+                <a href="/users/register"> Sign Up</a>
+            </fieldset>
+            <button  typ="submit" class="ui-btn ui-btn-b ui-corner-all mc-top-margin-1-5">Sign In</button>
+            </form>
+        </div>
+            
+		</div>

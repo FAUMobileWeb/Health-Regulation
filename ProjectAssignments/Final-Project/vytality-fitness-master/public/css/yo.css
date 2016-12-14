@@ -1,0 +1,15 @@
+.itemBar {
+	background-color: white;
+	opacity: 0.8;
+	transition: 0.2s;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	border-right: 7px solid #607D8B;
+	border-top: thin solid #607D8B;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+.itemBar:hover { opacity: 1; }
